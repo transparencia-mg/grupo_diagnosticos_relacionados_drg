@@ -1,0 +1,178 @@
+{
+  "version": "4.16.6",
+  "time": 0.216,
+  "errors": [],
+  "tasks": [
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "drg",
+        "path": "data/DRG.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "data_referencia",
+              "type": "date"
+            },
+            {
+              "name": "reinternacao",
+              "type": "string"
+            },
+            {
+              "name": "obito",
+              "type": "string"
+            },
+            {
+              "name": "hdc",
+              "type": "string"
+            },
+            {
+              "name": "ucpp",
+              "type": "string"
+            },
+            {
+              "name": "permanencia_real",
+              "type": "geopoint"
+            },
+            {
+              "name": "especialidade_do_medico_1",
+              "type": "string"
+            },
+            {
+              "name": "cid_principal",
+              "type": "string"
+            },
+            {
+              "name": "descricao_cid_principal",
+              "type": "string"
+            },
+            {
+              "name": "data_de_internacao",
+              "type": "datetime"
+            },
+            {
+              "name": "data_alta",
+              "type": "datetime"
+            },
+            {
+              "name": "numero_de_atendimento",
+              "type": "string"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "88adbaff1a7a4018d470ad04939440bf",
+          "bytes": 487241,
+          "fields": 12,
+          "rows": 3205
+        }
+      },
+      "time": 0.203,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [
+        {
+          "cell": "182,8",
+          "fieldName": "permanencia_real",
+          "fieldNumber": 6,
+          "fieldPosition": 6,
+          "cells": [
+            "2025-03-01",
+            "NAO",
+            "NAO",
+            "NAO",
+            "NAO",
+            "182,8",
+            "Cardiologia",
+            "I713",
+            "Aneurisma da aorta abdominal, roto",
+            "2024-09-08 20:00:00",
+            "2025-03-10 14:22:00",
+            "5582700,0"
+          ],
+          "rowNumber": 1880,
+          "rowPosition": 1881,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"geopoint/default\"",
+          "message": "Type error in the cell \"182,8\" in row \"1881\" and field \"permanencia_real\" at position \"6\": type is \"geopoint/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "446,3",
+          "fieldName": "permanencia_real",
+          "fieldNumber": 6,
+          "fieldPosition": 6,
+          "cells": [
+            "2025-03-01",
+            "NAO",
+            "SIM",
+            "NAO",
+            "NAO",
+            "446,3",
+            "ClÃ­nica MÃ©dica",
+            "J180",
+            "Broncopneumonia nÃ£o especificada",
+            "2023-12-12 09:57:00",
+            "2025-03-02 18:00:00",
+            "5103480,0"
+          ],
+          "rowNumber": 2024,
+          "rowPosition": 2025,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"geopoint/default\"",
+          "message": "Type error in the cell \"446,3\" in row \"2025\" and field \"permanencia_real\" at position \"6\": type is \"geopoint/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        }
+      ],
+      "stats": {
+        "errors": 2
+      },
+      "valid": false
+    }
+  ],
+  "stats": {
+    "errors": 2,
+    "tasks": 1
+  },
+  "valid": false
+}
