@@ -2,7 +2,8 @@ name: grupo_diagnosticos_relacionados_drg
 owner_org: instituto-de-previdencia-dos-servidores-do-estado-de-minas-gerais-ipsemg
 profile: data-package
 resources:
-  - description: Base de dados que apresenta a relação das principais informações extraídas do prontuário eletrônico de pacientes internados no Hospital Governador Israel Pinheiro (HGIP).
+  - description: >
+      Base de dados que apresenta a relação das principais informações extraídas do prontuário eletrônico de pacientes internados no Hospital Governador Israel Pinheiro (HGIP).
     dialect:
       delimiter: ;
     encoding: utf-8-sig
@@ -23,7 +24,7 @@ resources:
           description: Indica se o paciente foi reinternado, valores possíveis Sim, Não
         - name: obito
           type: string
-         title: Óbito
+          title: Óbito
           description: Registra se o paciente faleceu durante a internação, valores Sim, Não
         - name: hdc
           type: string
