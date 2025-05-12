@@ -38,5 +38,5 @@ resources:
         - name: numero_de_atendimento
           type: string
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-title: Grupo_diagnosticos_relacionados_drg
+    title: Grupo_diagnosticos_relacionados_drg
+title: Grupo Diagnósticos Relacionados DRG
