@@ -36,7 +36,7 @@ resources:
         - name: permanencia_real
           type: geopoint
            title: Permanência Real
-          description: Tempo total de’ internação do paciente (em dia).
+          description: Tempo total de internação do paciente (em dia).
         - name: especialidade_do_medico_1
           type: string
            title: Especialidade do médico 1
