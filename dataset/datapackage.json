@@ -41,25 +41,43 @@
             "name": "obito",
             "type": "string",
             "title": "Óbito",
-            "description": "Registra se o paciente faleceu durante a internação, valores Sim, Não"
+            "description": "Registra se o paciente faleceu durante a internação.",
+            "constraints": {
+              "enum": [
+                "Sim",
+                "Não"
+              ]
+            }
           },
           {
             "name": "hdc",
             "type": "string",
             "title": "Hospital Dia Cirúrgico",
-            "description": "Indica se o paciente foi atendido em regime de Hospital Dia Cirúrgico, valores Sim, Não"
+            "description": "Indica se o paciente foi atendido em regime de Hospital Dia Cirúrgico.",
+            "constraints": {
+              "enum": [
+                "Sim",
+                "Não"
+              ]
+            }
           },
           {
             "name": "ucpp",
             "type": "string",
             "title": "Unidade de Cuidados Prolongados",
-            "description": "Indica se o paciente foi atendido em Unidade de Cuidados Prolongados, valores Sim, Não"
+            "description": "Indica se o paciente foi atendido em Unidade de Cuidados Prolongados.",
+            "constraints": {
+              "enum": [
+                "Sim",
+                "Não"
+              ]
+            }
           },
           {
             "name": "permanencia_real",
             "type": "geopoint",
             "title": "Permanência Real",
-            "description": "Tempo total de internação do paciente, em dia"
+            "description": "Tempo total de internação do paciente em dias."
           },
           {
             "name": "especialidade_do_medico_1",
