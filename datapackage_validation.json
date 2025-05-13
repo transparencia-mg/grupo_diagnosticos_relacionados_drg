@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.097,
+  "time": 0.098,
   "errors": [],
   "tasks": [
     {
@@ -21,7 +21,10 @@
               "name": "data_referencia",
               "type": "date",
               "title": "Data de Referência",
-              "description": "Data de ocorrência hospitalar. Formato (aaaamm).\n"
+              "description": "Data de ocorrência hospitalar.\n",
+              "notes": [
+                "Formato - aaaamm."
+              ]
             },
             {
               "name": "reinternacao",
@@ -106,7 +109,7 @@
           "rows": 0
         }
       },
-      "time": 0.083,
+      "time": 0.084,
       "scope": [
         "hash-count-error",
         "byte-count-error",
