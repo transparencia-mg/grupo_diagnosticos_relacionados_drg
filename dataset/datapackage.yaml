@@ -22,6 +22,10 @@ resources:
           type: string
           title: Reinternação
           description: Indica se o paciente foi reinternado, valores possíveis Sim, Não
+          constraints:
+              enum:
+              - Sim
+              - Não
         - name: obito
           type: string
           title: Óbito
@@ -63,5 +67,5 @@ resources:
           title: Número de Atendimento
           description: Identificador único do atendimento hospitalar.
     scheme: file
-    title: Grupo_diagnosticos_relacionados_drg
+    title: Grupo Diagnósticos Relacionados - DRG
 title: Grupo Diagnósticos Relacionados DRG
