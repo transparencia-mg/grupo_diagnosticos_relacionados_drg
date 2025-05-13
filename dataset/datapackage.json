@@ -26,7 +26,13 @@
             "name": "reinternacao",
             "type": "string",
             "title": "Reinternação",
-            "description": "Indica se o paciente foi reinternado, valores possíveis Sim, Não"
+            "description": "Indica se o paciente foi reinternado, valores possíveis Sim, Não",
+            "constraints": {
+              "enum": [
+                "Sim",
+                "Não"
+              ]
+            }
           },
           {
             "name": "obito",
@@ -91,7 +97,7 @@
         ]
       },
       "scheme": "file",
-      "title": "Grupo_diagnosticos_relacionados_drg"
+      "title": "Grupo Diagnósticos Relacionados - DRG"
     }
   ],
   "title": "Grupo Diagnósticos Relacionados DRG"
