@@ -20,7 +20,10 @@
             "name": "data_referencia",
             "type": "date",
             "title": "Data de Referência",
-            "description": "Data de ocorrência hospitalar. Formato (aaaamm).\n"
+            "description": "Data de ocorrência hospitalar.\n",
+            "notes": [
+              "Formato - aaaamm."
+            ]
           },
           {
             "name": "reinternacao",
