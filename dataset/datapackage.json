@@ -20,13 +20,13 @@
             "name": "data_referencia",
             "type": "date",
             "title": "Data de Referência",
-            "description": "Data de ocorrência hospitalar, formato aaaamm"
+            "description": "Data de ocorrência hospitalar. Formato (aaaamm).\n"
           },
           {
             "name": "reinternacao",
             "type": "string",
             "title": "Reinternação",
-            "description": "Indica se o paciente foi reinternado, valores possíveis Sim, Não",
+            "description": "Indica se o paciente foi reinternado.",
             "constraints": {
               "enum": [
                 "Sim",
