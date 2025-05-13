@@ -19,7 +19,8 @@ resources:
           title: Data de Referência
           description: > 
            Data de ocorrência hospitalar.
-           Formato (aaaamm).
+          notes:
+           - Formato - aaaamm.
         - name: reinternacao
           type: string
           title: Reinternação
