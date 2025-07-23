@@ -5,7 +5,6 @@
   "tasks": [
     {
       "resource": {
-        "description": "Base de dados que apresenta a relação das principais informações extraídas do prontuário eletrônico de pacientes internados no Hospital Governador Israel Pinheiro (HGIP).\n",
         "dialect": {
           "delimiter": ";"
         },
@@ -127,7 +126,7 @@
           "rows": 0
         }
       },
-      "time": 0.062,
+      "time": 0.063,
       "scope": [
         "hash-count-error",
         "byte-count-error",
